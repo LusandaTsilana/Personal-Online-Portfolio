@@ -368,7 +368,6 @@ flex-basis: 35%;
 
 }
 
-.social-icons a  {
 .social-icons a {
     text-decoration: none;
     font-size: 30px;
@@ -592,11 +591,9 @@ nav .fa{
 }
 
 /*-----css for medium screen------*/
-@media screen and (min-width: 768px) /*and (max-width: 1024px)*/{
 @media screen and (min-width: 768px) and (max-width: 1024px){
     #about{
         padding: 80px 0;
-        margin: 5px;
         margin-bottom: 10%;
         /*color:*/
     }
@@ -609,7 +606,6 @@ nav .fa{
     }
     .about-col-1{
         flex-basis: 35%;
-        
     }
     
     .about-col-1 img{
@@ -689,3 +685,4 @@ nav .fa{
     }
     
 }
+ 
